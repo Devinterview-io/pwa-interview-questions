@@ -1,42 +1,798 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">Top 22 PWA interview
-    questions and answers in 2021.</h1> <p data-v-5e9078c0="">
-      You can check all
-      22
-      PWA interview questions here 👉
-      https://devinterview.io/dev/pwa-interview-questions
-    </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is a progressive web app?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The concept of the <strong>progressive web app (PWA)</strong> was approached by Google in late 2015. They are basically web applications (Website) but have look and feel like other native mobile apps. The progressive web app enabled websites can offer functionalities such as working offline, push notifications, and device hardware access.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/47055893/what-is-a-progressive-web-app-in-laymans-terms" rel="noreferrer" target="_blank" title="What is a progressive web app? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What are some benefits of PWA?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Benefits of the progressive web app:</p><ol><li><strong>Smaller and Faster:</strong>
-The progressive web apps are much smaller in size than native apps. They don’t even need to install. That’s they are not wasting disc space and load very fast.</li><li><strong>Responsive Interface:</strong>
-Progressive web app (PWA) supported web pages are capable to fit in every screen sizes automatically. It could be a smartphone, tablet, desktop or laptop.</li><li><strong>No Updates Required:</strong>
-Most of the mobile apps need regular weekly updates. Like the normal website, progressive web apps (PWA) are always loaded latest updated version whenever the user interaction happens and no App or Play Store approval required.</li><li><strong>Cost Effective:</strong>
-Native mobile apps need to be developed for both Android and iOS devices separately and their development cost is very high. On the other hand, progressive web apps are had the same features but the fraction of the prior price.</li><li><strong>SEO Advantage:</strong>
-Progressive web apps are discoverable by search engines and load super-fast. Just like other websites, their links are sharable too. This, in other words, gives good user experience and result in SEO rank boost.</li><li><strong>Offline capabilities:</strong>
-Due to the support of service worker API, PWAs are accessible in offline or low internet connections.</li><li><strong>Security:</strong>
-PWAs are delivered over HTTPS connection and secure user-data over each interaction.</li><li><strong>Push Notifications:</strong>
-By the support of push notifications, PWAs can interact easily with the users and provide a really amazing user experience.</li><li><strong>Bypass the  app stores:</strong>
-PWAs don’t need the App store or Google play store support. Their updated version can be directly loaded from the web server without the requirement of app store approval. On the other hand, native apps need days of approval if any new update required. There are possibilities of getting rejected or banned.</li><li><strong>Zero installation:</strong>
-During browsing, progressive web app gets its own icon on phones and tablets, just like a mobile application, but without the need to go through the tedious and slow App Store installation process.</li></ol></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/47055893/what-is-a-progressive-web-app-in-laymans-terms" rel="noreferrer" target="_blank" title="What are some benefits of PWA? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. What makes an app a PWA?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>There are some key principles a web app should try to observe to be identified as a PWA. It should be:</p><ul><li><strong>Discoverable</strong>, so the contents can be found through search engines.</li><li><strong>Installable</strong>, so it's available on the device's home screen.</li><li><strong>Linkable</strong>, so you can share it by simply sending a URL. 
-<strong>* Network independent</strong>, so it works offline or with a poor network connection.</li><li><strong>Progressive</strong>, so it's still usable on a basic level on older browsers, but fully-functional on the latest ones.</li><li><strong>Re-engageable</strong>, so it's able to send notifications whenever there's new content available.</li><li><strong>Responsive</strong>, so it's usable on any device with a screen and a browser — mobile phones, tablets, laptops, TVs, fridges, etc.</li><li><strong>Safe</strong>, so the connection between you and the app is secured against any third parties trying to get access to your sensitive data.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Introduction" rel="noreferrer" target="_blank" title="What makes an app a PWA? Interview Questions Source To Answer">developer.mozilla.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. Why do we need a web manifest for PWA?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>web manifest </strong>file lists all the information about the website in a JSON format. Having this file is one of the requirements <strong>to make the website installable</strong>.</p><p>It usually resides in the root folder of a web app. It contains useful information, such as the app’s title, paths to different-sized icons that can be used to represent the app on a mobile OS (for example, as the home screen icon), and a background color to use in loading or splash screens. This information is needed for the browser to present the web app properly when installing, and on the home screen.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs" rel="noreferrer" target="_blank" title="Why do we need a web manifest for PWA? Interview Questions Source To Answer">developer.mozilla.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. What features do Progressive Web Apps have that native apps lacks?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>There are some: </p><ul><li><strong>discoverability</strong> - content in progressive web apps can easily be found by search engines but a content-centric native app like StackOverflow won't show among app store search results for content that it does offer access to, such as "pwa vs. native". This is a problem for communities like Reddit, which can't expose their numerous sub-communities to the app store as individual "apps".</li><li><strong>linkability</strong> - any page/screen can have a direct link, which can be shared easily</li><li><strong>bookmarkability</strong> - save that link to access an app's view directly  </li><li><strong>always fresh</strong> - no need to go through the app stores to push updates</li><li><strong>universal access</strong> - not subject by app stores <a href="https://medium.com/@krave/apple-s-app-store-review-process-is-hurting-users-but-we-re-not-allowed-to-talk-about-it-55d791451b#.s2bse2bai">sometimes arbitrary policies</a> or (unintended) <a href="https://android.stackexchange.com/questions/12538/how-can-i-circumvent-regional-restrictions-in-googles-play-store">geographic restrictions</a></li><li><strong>large data savings</strong>, extremely important in emerging markets with expensive and/or slow Internet access. For example, e-commerce website Konga <a href="https://developers.google.com/web/showcase/2016/konga">cut data usage by 92% for the first load by migrating to a PWA</a>.</li><li><strong>low friction of distribution</strong> - if your progressive web app is online, it's already accessible for Android (and other mobile) users.<ul><li><a href="http://www.businessinsider.com/how-many-apps-people-download-per-month-2014-8">65.5% of US smartphone users don't download any new apps each month</a></li><li>PWAs eliminate the need to go to the app store, search for the app, click Install, wait for the download, then open the app. <a href="https://www.youtube.com/watch?v=qmE_jpnYXFo&amp;feature=youtu.be&amp;t=96">Each of these steps loses 20% of the potential users.</a></li></ul></li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/35504194/what-features-do-progressive-web-apps-have-vs-native-apps-and-vice-versa-on-an" rel="noreferrer" target="_blank" title="What features do Progressive Web Apps have that native apps lacks? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. What is the differences between a Hybrid Mobile App and a Progressive Web App?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>hybrid mobile app</strong> usually refers to an application built using a combination of web and native technology that is distributed via a native app store. These apps go through Apple, Google, Microsoft, etc's app store review process.</p><p>A <strong>Progressive Web App</strong> is an application built using web technology that runs in the browser and may be added to the home screen. They do not need to be distributed via native app stores, but can be included in them. Microsoft includes PWAs in its Microsoft Store as of 2018 and Trusted Web Activities make it easier to submit PWAs to the Google Play Store.</p><p>Some hybrid mobile app platforms include PhoneGap (aka Cordova), Appcelerator Titanium, and Ionic. You don't need a platform to create a hybrid app, but they are helpful because they've already taken care of creating a bridge between native APIs and JavaScript APIs.</p><p>Progressive Web Apps simply run in the browser so they can be built with basic HTML, CSS and JavaScript.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/40820592/difference-between-a-progressive-web-app-and-a-hybrid-mobile-app" rel="noreferrer" target="_blank" title="What is the differences between a Hybrid Mobile App and a Progressive Web App? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. What are some requirements to make the website installable as PWA?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>To make the website installable, it needs the following things in place:</p><ul><li>A web manifest, with the correct fields filled in</li><li>The website to be served from a secure (HTTPS) domain</li><li>An icon to represent the app on the device</li><li>A service worker registered, to make the app work offline (this is required only by Chrome for Android currently)</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs" rel="noreferrer" target="_blank" title="What are some requirements to make the website installable as PWA? Interview Questions Source To Answer">developer.mozilla.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. What is CacheStorage?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>CacheStorage</strong> is a storage mechanism in browsers for storing and retrieving network requests and response. It stores a pair of Request and Response objects. The Request as the key and Response as the value.</p><p><strong>CacheStorage</strong> is not a Service Worker API, but it enables SW to cache network responses so that they can provide offline capabilities when the user is disconnected from the network.</p><p>The <code>caches</code> (an instance of CacheStorage) object is used to access the CacheStorage, to retrieve, store and delete objects.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://blog.bitsrc.io/introduction-to-the-cache-storage-a-new-browser-cache-pwa-api-a5d7426a2456" rel="noreferrer" target="_blank" title="What is CacheStorage? Interview Questions Source To Answer">blog.bitsrc.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. What are some disadvantages of PWA?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Disadvantages of the progressive web app:</strong></p><ol><li><p><strong>Less access to system features:</strong>
-Currently, Progressive Web Apps have limited access to native system features than native apps. Also, all browsers are not supporting its full features but maybe in near future, it will be the new standard of development.</p></li><li><p><strong>More Android – Less Apple’s iOS:</strong>
-progressive web apps are currently, most supported by Android devices. Apple’s iOS is only partially supporting.</p></li><li><p><strong>No review standard:</strong>
-progressive web apps don’t need any kind of review system which is applicable for native apps from the app store. It may make the process faster but lack of promotional benefits from the app store.</p></li></ol></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/47055893/what-is-a-progressive-web-app-in-laymans-terms" rel="noreferrer" target="_blank" title="What are some disadvantages of PWA? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. What is IndexedDB and how is it used by PWA?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>IndexedDB is a large-scale, NoSQL storage system. It lets you store just about anything in the user's browser. In addition to the usual search, get, and put actions, IndexedDB also supports transactions.</p><p>IndexedDB is a low-level API for client-side storage of significant amounts of structured data, including files/blobs. This API uses indexes to enable high performance searches of this data. While DOM Storage is useful for storing smaller amounts of data, it is less useful for storing larger amounts of structured data. IndexedDB provides a solution.</p><p>In a context of PWA a general recommendation for storing data offline:</p><ul><li>For the network resources necessary to load your app while offline, use the Cache API (part of service workers).</li><li>For all other data, use IndexedDB (with a promises wrapper).</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/ilt/pwa/working-with-indexeddb" rel="noreferrer" target="_blank" title="What is IndexedDB and how is it used by PWA? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What is a fetch event?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>After a service worker is installed and the user navigates to a different page or refreshes, the service worker will begin to receive <code>fetch</code> events.</p><p>A <code>fetch</code> event fires every time any resource controlled by a service worker is fetched, which includes the documents inside the specified scope, and any resources referenced in those documents (for example if index.html makes a cross origin request to embed an image, that still goes through its service worker.)</p><p>Consider:</p><pre><code>self<span class="token cBase">.</span><span class="token cMod">addEventListener</span><span class="token cBase">(</span><span class="token cString">'fetch'</span><span class="token cBase">,</span> <span class="token cVar">function</span><span class="token cBase">(</span><span class="token parameter">event</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-  event<span class="token cBase">.</span><span class="token cMod">respondWith</span><span class="token cBase">(</span>
-    caches<span class="token cBase">.</span><span class="token cMod">match</span><span class="token cBase">(</span>event<span class="token cBase">.</span>request<span class="token cBase">)</span>
-      <span class="token cBase">.</span><span class="token cMod">then</span><span class="token cBase">(</span><span class="token cVar">function</span><span class="token cBase">(</span><span class="token parameter">response</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-        <span class="token cComment">// Cache hit - return response</span>
-        <span class="token cVar">if</span> <span class="token cBase">(</span>response<span class="token cBase">)</span> <span class="token cBase">{</span>
-          <span class="token cVar">return</span> response<span class="token cBase">;</span>
-        <span class="token cBase">}</span>
-        <span class="token cVar">return</span> <span class="token cMod">fetch</span><span class="token cBase">(</span>event<span class="token cBase">.</span>request<span class="token cBase">)</span><span class="token cBase">;</span>
-      <span class="token cBase">}</span>
-    <span class="token cBase">)</span>
-  <span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span><span class="token cBase">)</span><span class="token cBase">;</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/primers/service-workers" rel="noreferrer" target="_blank" title="What is a fetch event? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. What is a service worker?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>service worker</strong> is a specific type of JS Script, which runs in the background of the user’s browser. It acts like a proxy server exists between your app, the browser and the network. Among other things, service workers allow apps to continue functioning offline in case the user loses internet connection.</p><p>Service Workers are a virtual proxy between the browser and the network. They finally fix issues that front-end developers have struggled with for years — most notably how to properly cache the assets of a website and make them available when the user’s device is offline.</p><p>They run on a <strong>separate thread </strong>from the main JavaScript code of our page, and don't have any access to the DOM structure. This introduces a different approach from traditional web programming — the API is non-blocking, and can send and receive communication between different contexts. You are able to give a Service Worker something to work on, and receive the result whenever it is ready using a Promise-based approach.</p><p>They can do a lot more than "just" offering offline capabilities, including handling notifications, performing heavy calculations on a separate thread, etc. Service workers are quite powerful as they can take control over network requests, modify them, serve custom responses retrieved from the cache, or synthesize responses completely.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/primers/service-workers" rel="noreferrer" target="_blank" title="What is a service worker? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. What is App Shell?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>An <strong>application shell</strong> (or app shell) architecture is one way to build a Progressive Web App that reliably and instantly loads on your users' screens, similar to what you see in native applications.</p><p>The app "shell" is the minimal HTML, CSS and JavaScript required to power the user interface and when cached offline can ensure instant, reliably good performance to users on repeat visits. This means the application shell is not loaded from the network every time the user visits. Only the necessary content is needed from the network.</p><p>An application shell architecture makes the most sense for apps and sites with relatively unchanging navigation but changing content.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/architecture/app-shell" rel="noreferrer" target="_blank" title="What is App Shell? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. How to update a service worker?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>There will be a point in time where your service worker will need updating. When that time comes, you'll need to follow these steps:</p><ul><li>Update your service worker JavaScript file. When the user navigates to your site, the browser tries to redownload the script file that defined the service worker in the background. <em>If there is even a byte's difference in the service worker file compared to what it currently has, it considers it new.</em></li><li>Your new service worker will be started and the install event will be fired.</li><li>At this point the old service worker is still controlling the current pages so the new service worker will enter a waiting state.</li><li>When the currently open pages of your site are closed, the old service worker will be killed and the new service worker will take control.</li><li>Once your new service worker takes control, its activate event will be fired.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/primers/service-workers" rel="noreferrer" target="_blank" title="How to update a service worker? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. Explain the service worker lifecycle</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A service worker has a lifecycle that is completely separate from your web page.</p><p>To install a service worker for your site, you need to register it, which you do in your page's JavaScript. Registering a service worker will cause the browser to start the service worker install step in the background.</p><p>Typically during the install step, you'll want to cache some static assets. If all the files are cached successfully, then the service worker becomes installed. If any of the files fail to download and cache, then the install step will fail and the service worker won't activate (i.e. won't be installed).</p><p>When installed, the activation step will follow and this is a great opportunity for handling any management of old caches.</p><p>After the activation step, the service worker will control all pages that fall under its scope, though the page that registered the service worker for the first time won't be controlled until it's loaded again. Once a service worker is in control, it will be in one of two states: either the service worker will be terminated to save memory, or it will handle fetch and message events that occur when a network request or message is made from your page.</p><p></p><div><div><div><div></div></div></div></div><p></p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/primers/service-workers" rel="noreferrer" target="_blank" title="Explain the service worker lifecycle Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 16. What are some requirements to app shell?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The app shell should ideally:</p><ul><li>Load fast</li><li>Use as little data as possible</li><li>Use static assets from a local cache</li><li>Separate content from navigation</li><li>Retrieve and display page-specific content (HTML, JSON, etc.)</li><li>Optionally, cache dynamic content</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/architecture/app-shell" rel="noreferrer" target="_blank" title="What are some requirements to app shell? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 17. What are some service worker's caching strategies do you know?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Those three caching strategies are framework agnostic:</p><ul><li><strong>Cache only</strong> - The SW expects to find the requested assets already here.</li><li><strong>Network only</strong> - This strategy is exactly the opposite of the previous one: we always access the network, without even querying the cache.</li><li><strong>Stale while revalidate</strong> - Similarly to the cache only strategy, the goal is to ensure a fast responses by delivering the data from the cache.
-However, while the client request is served, a separate request is triggered to the server to fetch a newer version, if available, and store it into the cache.</li></ul><p>Angular provides only two kind of caching strategy:</p><ul><li><strong>Performance (default)</strong> - Here the goal is to optimise the response time. If a resource is available in the cache, this version is delivered. Otherwise a network request is executed to fetch and then cache it.</li><li><strong>Freshness</strong> - Used when it is required to deliver the latest data from the network. We can specify a timeout after which the request falls back to the cache and tries to deliver the required data from there.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://dev.to/paco_ita/service-workers-and-caching-strategies-explained-step-3-m4f" rel="noreferrer" target="_blank" title="What are some service worker's caching strategies do you know? Interview Questions Source To Answer">dev.to</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 18. Is it possible to have truly persistent storage in a PWA and why may you want one?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The answer is <strong>No</strong>. The user can delete the PWA (if installed on Android) and clear their browser's cache of everything from your PWA.</p><p>The Cache API is temporary by design, and the IndexedDB data can be wiped when the user clears their browser cache.</p><p>So to persist app's data across PWA installations you should use cloud storage via some API.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/56708828/is-truly-persistent-storage-possible-in-a-progressive-web-app" rel="noreferrer" target="_blank" title="Is it possible to have truly persistent storage in a PWA and why may you want one? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 19. What are some benefits of an app shell architecture with a service worker?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The benefits of an app shell architecture with a service worker include:</p><ul><li><p><strong>Reliable performance that is consistently fast</strong>. Repeat visits are extremely quick. Static assets and the UI (e.g. HTML, JavaScript, images and CSS) are cached on the first visit so that they load instantly on repeat visits. Content may be cached on the first visit, but is typically loaded when it is needed.</p></li><li><p><strong>Native-like interactions</strong>. By adopting the app shell model, you can create experiences with instant, native-application-like navigation and interactions, complete with offline support.</p></li><li><p><strong>Economical use of data</strong>. Design for minimal data usage and be judicious in what you cache because listing files that are non-essential (large images that are not shown on every page, for instance) result in browsers downloading more data than is strictly necessary. Even though data is relatively cheap in western countries, this is not the case in emerging markets where connectivity is expensive and data is costly.</p></li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://developers.google.com/web/fundamentals/architecture/app-shell" rel="noreferrer" target="_blank" title="What are some benefits of an app shell architecture with a service worker? Interview Questions Source To Answer">developers.google.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 20. What can service workers do that web workers cannot?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><p><strong>Web Workers</strong>  - provide a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface. In addition, they can perform I/O using XMLHttpRequest (although the responseXML and channel attributes are always null). Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa.)</p></li><li><p><strong>Service Worker</strong> - is essentially act as proxy servers that sit between web applications, and the browser and network (when available). They are intended to (amongst other things) enable the creation of effective offline experiences, intercepting network requests and taking appropriate action based on whether the network is available and updated assets reside on the server. They will also allow access to push notifications and background sync APIs.</p></li></ul><pre><code>               | Web Workers  | Service Workers  |
-|--------------|--------------|------------------|
-| Instances    | Many per tab | One for all tabs |
-| Lifespan     | Same as tab  | Independent      |
-| Intended use | Parallelism  | Offline support  |</code></pre><p>Web Workers are handy to run expensive scripts without causing the user interface to freeze, while Service Workers are useful to modify the response from network requests (for example, when building an offline app).</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/38632723/what-can-service-workers-do-that-web-workers-cannot" rel="noreferrer" target="_blank" title="What can service workers do that web workers cannot? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 21. Is it possible to have multiple service workers?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>There's two things to keep in mind here:</p><ul><li>It's possible to register an arbitrary number of service workers for a given origin, as long as each service worker has its own unique scope</li><li>The Cache Storage API (and other storage mechanisms, like IndexedDB) are shared throughout the entire origin, and by default there's no "sharding" or namespace segregation.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/40820592/difference-between-a-progressive-web-app-and-a-hybrid-mobile-app" rel="noreferrer" target="_blank" title="Is it possible to have multiple service workers? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 22. What about PWA for iOS?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Service worker is available in Safari 11.1, which shipped March 29, 2018 with iOS 11.3 and macOS 10.13.4.</p><p>Note:</p><ul><li>Service Worker + Cache API are both supported (Cache API is actually a pre-requisite for Service Worker support)</li><li>There are some noticeable problems with Apple's implementation of Service Worker</li><li>No "Add to Home Screen" prompt</li><li>No Push API</li><li>No Background Sync</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/29895387/service-workers-and-ios-safari" rel="noreferrer" target="_blank" title="What about PWA for iOS? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-    Thanks 🙌 for reading and good luck on your next tech interview!
-    <br data-v-5e9078c0="">
-    Explore 3800+ dev interview question here 👉
-    <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+# 100 Fundamental PWA Interview Questions
+
+<div>
+<p align="center">
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
+#### You can also find all 100 answers here 👉 [Devinterview.io - PWA](https://devinterview.io/questions/web-and-mobile-development/pwa-interview-questions)
+
+<br>
+
+## 1. What is a _Progressive Web App (PWA)_?
+
+**Progressive Web Apps (PWAs)** combine the best features of web and mobile applications. They deliver a seamless, fast, and engaging user experience across devices and networks. Key to their functionality is enabling offline access, push notifications, and device hardware interaction - features that were traditionally associated with native apps.
+
+### PWA Components
+
+1. **Progressive**: Works for all users, regardless of browser choice.
+2. **Discoverable**: Indexed by search engines and shareable via URLs.
+3. **Re-Engageable**: Supports push notifications.
+4. **Responsive**: Adapts to various screen sizes and orientations.
+
+5. **App-like Interactions**: Navigates seamlessly with smooth animations and gestures.
+6. **Fresh**: Updates content automatically.
+7. **Safe**: Served over HTTPS to prevent tampering and ensure user security.
+
+### Key Technologies
+
+- **Service Workers**: Background scripts enabling features like offline access and push notifications.
+- **Web App Manifest**: JSON file providing app details to browsers, such as the icon to display on the home screen or its starting URL.
+
+### Benefits
+
+- **Cross-Platform**: Works on desktops, laptops, tablets, and mobile devices.
+- **Linkable**: Can be shared and accessed through URLs, avoiding the need for app store installations.
+- **Cost-Effective**: Eliminates the expenses associated with app store submissions or multi-platform development.
+- **Auto-Updates**: Updates automatically when users are online, preventing version fragmentation.
+- **Offline Functionality**: Continues to function in the absence of a stable internet connection, offering reliability and speed.
+- **Engagement Features**: Allows for push notifications and home screen installations, promoting user engagement.
+- **SEO-friendly**: Content can be indexed by search engines, enhancing discoverability.
+
+### Practical Use Cases
+
+1. **Twitter**: After adopting PWA technology, Twitter witnessed a 65% increase in page sessions and a 75% rise in tweets viewed.
+2. **Pinterest**: Embracing PWAs led to a 60% rise in user engagement and core interactions across diverse platforms.
+3. **Starbucks**: The Starbucks PWA, designed for speed and reliability, is utilized by customers to browse menus, manage rewards, and place orders.
+<br>
+
+## 2. How do _PWAs_ differ from traditional web applications?
+
+**Progressive Web Applications** (PWAs) substantially enhance the web browsing experience to a degree that's akin to native mobile applications. Let's investigate the key areas in which PWAs diverge from traditional web applications.
+
+### Key Distinctions
+
+#### Installability
+
+- **PWA**: Offer the choice to users to install them on their device, showing up on their home screen or in the app drawer.
+- **Web App**: Generally, users access web apps through a web browser.
+
+#### Integrations
+
+- **PWA**: Emulate features typically associated with native apps, such as push notifications and device hardware access.
+- **Web App**: Limited or no capability to integrate with device-specific functionalities.
+
+#### Connectivity
+
+- **PWA**: Work offline or with a poor internet connection by caching resources.
+- **Web App**: Require a steady and reliable internet connection.
+
+#### Discoverability
+
+- **PWA**: Register themselves in app marketplaces (e.g., Google Play Store).
+- **Web App**: Largely dependent on traditional search engine visibility.
+
+### Supported Technologies
+
+#### PWA
+
+- **Service Workers**: A script that runs in the background, enabling features like push notifications, offline support, and caching strategies.
+- **Web App Manifest**: A JSON file that provides metadata about the web application, creating the experience of a standalone app.
+
+#### Web Apps
+
+- **Progressive Enhancement**: A universal design approach that starts with basic functionality and progressively enhances based on the capabilities of the client or user.
+- **Responsive Web Design (RWD)**: Ensures websites look and feel optimal across various devices and screen sizes.
+
+### Code Example: PWA Service Worker
+
+Here is the JavaScript code:
+
+```javascript
+// A simple example of a service worker that caches resources for offline use
+self.addEventListener('install', function(event) {
+    event.waitUntil(
+        caches.open('static-v1').then(function(cache) {
+            return cache.addAll([
+                '/styles/main.css',
+                '/script/main.js',
+                '/images/logo.png',
+                // Additional resources to cache
+            ]);
+        })
+    );
+});
+
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+        caches.match(event.request).then(function(response) {
+            return response || fetch(event.request);
+        })
+    );
+});
+```
+
+### Code Example: PWA Manifest File
+
+Here is the JSON manifest:
+
+```json
+{
+    "name": "My PWA",
+    "short_name": "PWA",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#000",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        // Add multiple icon sizes
+    ]
+}
+```
+<br>
+
+## 3. Can you list the core pillars of a _PWA_?
+
+**Progressive Web Applications** adhere to a set of core principles to deliver an enhanced user experience that is both reliable and engaging across various platforms.
+
+### Core Elements of a PWA
+
+#### App-shell and Shell-First Navigation
+
+- **What is it?** It is a design pattern that separates the visual part of your app from the data. This visual part will be cached and the data fetched dynamically.
+- **Benefits**: Quick navigation and a consistently fast experience once the initial content is loaded.
+
+#### Service Workers
+
+- **What is it?**: A script that the browser runs in the background, separate from a web page, opening the door to features like caching and push notifications.
+- **Benefits**: Caching for offline use and faster load times, push notifications
+
+#### Web App Manifest
+
+- **What is it?**: A simple JSON file that gives you the ability to control how your app appears to the user in areas where they would expect to see apps.
+- **Benefits**: Add to home screen, splash screen, and more consistent in UI across screens
+
+#### Responsive Design
+
+- **What is it?**: Design principle that ensures web content adapts to any device on which it is displayed.
+- **Benefits**: Compatibility across various devices and screen sizes.
+
+#### HTTPS
+
+- **What is it?**: PWA must be served over a secure network.
+- **Benefits**: Data protection and integrity.
+
+Recently, some additional fundamental requirements have been added:
+
+#### Fast
+
+- **What is it?**: Deliver quickly, making sure the first load is fast.
+- **Benefits**: Improved user experience and SEO ranking.
+
+#### Safe 
+
+- **What is it?**: Must be served over secure HTTPS.
+- **Benefits**: Security for users.
+
+#### Engaging
+
+- **What is it?**: Engage the user. Use features like push notifications.
+- **Benefits**: Better user experience.
+<br>
+
+## 4. What are the advantages of developing a _PWA_ over a _native app_?
+
+Both **Progressive Web Apps** (PWAs) and **Native Apps** come with distinctive benefits and limitations. Let's examine them in detail.
+
+### Unique Benefits of PWAs
+
+- **Cross-Platform Compatibility**: PWAs seamlessly work across various operating systems and devices.
+- **Update Convenience**: Users access the latest version of the PWA without manual updates, enhancing security and performance.
+- **Web Technology Base**: Developers leverage standardized web technologies for PWA development.
+- **No App Store Dependencies**: PWAs don't necessarily require listing in app stores. This simplifies deployment and eliminates associated fees, although they might still benefit from being listed in app stores for discoverability.
+- **Faster Development**: With a single codebase, PWA development can be swifter than building multi-platform native apps.
+- **Lower Storage Requirements**: PWAs can be "lighter" in size, especially compared to large native apps.
+
+### Unique Benefits of Native Apps
+
+- **Optimized Performance**: Native apps excel in performance, especially for complex tasks such as 3D graphics or high-fidelity video.
+- **Rich in Features**: Native apps can harness the full range of device-specific features and hardware, delivering highly tailored experiences.
+- **Robust Offline Functionality**: While PWAs offer some offline capabilities, native apps, particularly those with local databases, can function fully offline.
+
+### Shared Advantages
+
+- **Access to Device Features**: Both PWAs and native apps can tap into device-specific functionalities like geolocation, camera, and more.
+- **Engaging User Experiences**: Both app types are primed to offer engaging user interfaces, driving user retention and satisfaction.
+<br>
+
+## 5. What is the role of the _service worker_ in a _PWA_?
+
+The **service worker** is a key component in the **Progressive Web App (PWA)** architecture. It presents a unique approach to web application development, focusing on **offline capability**, performance enhancement, and seamless user experience.
+
+### Core Functions of the Service Worker
+
+- **Network Proxy**: Acts as a middleman, intercepting network requests and allowing the app to utilize cached data when a network connection is unavailable.
+
+- **Cache Management**: Maintains a distinct cache, streamlining the storage and retrieval of assets like HTML, CSS, JS, and media files.
+
+- **Background Synchronization**: Allows for data synchronization even when the app is not actively in use.
+
+- **Push Notifications**: Facilitates direct communication with the user through notifications, keeping them informed about relevant app updates.
+
+### Service Worker Lifecycle
+
+1. **Registration**: The web app registers the service worker for the first time. The worker is then downloaded and installed.
+2. **Installation**: New service workers are installed in the background, but they don't take over operational control until all tabs using the earlier service worker are closed.
+3. **Activation**: Upon successful installation, the new service worker is activated, replacing the previous worker.
+4. **Update**: When there are significant changes to the service worker file, a new worker is installed in the background. It becomes active only after all tabs using the existing worker are closed.
+
+### Key Role in Offline Functionality
+
+- **Caching**: Service workers store content in a local cache, ensuring that a PWA can function without a live internet connection.
+
+- **Fallback Content**: When online resources are inaccessible, the service worker can serve cached content, ensuring a seamless user experience.
+
+- **Background Sync**: The service worker enables apps to queue specific tasks, such as form submissions, until an internet connection becomes available.
+
+### Tools for Performance Optimizations
+
+- **Pre-Caching**: Service workers can preemptively cache assets, making them available for rapid loading.
+
+- **Runtime Caching**: Content can be cached dynamically based on user interactions or other events, enhancing the app's responsiveness.
+
+### Enhanced User Engagement
+
+- **Push Notifications**: The service worker enables the delivery of push notifications to users, driving re-engagement with the PWA.
+
+- **Rich Offline UI**: By integrating 'Background sync,' service workers elevate the offline experience, preparing and updating UI before a lost network connectivity is encountered.
+<br>
+
+## 6. How do you make a web app installable on a user's home screen?
+
+By harnessing the capabilities of modern web browsers and adhering to specific criteria through the Web App Manifest, developers can **enable a fast, reliable and engaging web app experience**, compatible with the user's home screen.
+
+### Web App Manifest
+
+The Web App Manifest is a configuration file in JSON format that **affirms an app's identity** and defines its behavior when installed.
+
+For a website to be considered an installable PWA, it must:
+
+- Be served over HTTPS
+- Include a Web App Manifest file hosted at the root level
+- Conform to critical attributes like "short_name", "start_url", and "icons"
+
+A straightforward example of a manifest JSON:
+
+```json
+{
+  "short_name": "My App",
+  "name": "My Progressive Web App",
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "theme_color": "#3367D6",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
+```
+
+### Service Workers
+
+Service Workers are the backbone for many PWA features, including the **ability to work offline**. This characteristic is key to ensuring that once installed, PWAs provide a consistent user experience, independent of network availability.
+
+The core tasks of a Service Worker in this context involve:
+
+- Precaching key assets
+- Managing runtime caching
+- Implementing a robust fetch event handler
+
+### Registering the Service Worker
+
+To begin reaping the benefits of a Service Worker, it must first be registered. This action is usually performed via your web app's main JavaScript file:
+
+```javascript
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js')
+    .then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    })
+    .catch(function(err) {
+      console.error('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+```
+
+### Post-Installation Behavior
+
+After successful installation, a PWA is expected to present consistent UX standards, in line with what the user has grown accustomed to on their home screen. This would typically entail:
+
+- Opening as a standalone app without a browser UI
+- Releasing clear, legible icons
+- Working offline or under unreliable network conditions
+
+### Browser Compatibility
+
+While most modern browsers support the core features required for PWA installation, you should remember to triple-check the **latest compatibility tables** based on the functionality you incorporate.
+
+### Responsive Design Elements
+
+PWA developers incorporate responsive web design strategies to ensure the visual fidelity and usability of their app across diverse devices and screen sizes. Such designs guarantee a seamless user experience, crucial for availing the benefits of PWAs on various form factors.
+<br>
+
+## 7. What is a _manifest file_ and what is its significance in _PWAs_?
+
+The **Web App Manifest** is a JSON file enabling developers to provide rich, app-like experiences for **Progressive Web Apps** (PWAs). It ensures consistent behavior across platforms and devices.
+
+### Key Manifest Properties
+
+- **name**: Application's display name.
+- **short_name**: A shorter name, beneficial for space-restricted environments.
+- **start_url**: Defines the initial URL when the app is launched.
+- **display**: Determines the app's layout and launch mode.
+- **icons**: Specifies various sizes of the app icon for display consistency.
+- **background_color**: Sets the color users see upon app launch, providing a seamless experience during loading.
+- **theme_color**: Governs the color of the web browser's UI.
+
+### Code Example: Web App Manifest
+
+Here is the JSON representation of a `manifest.json` file:
+
+```json
+{
+  "name": "Sample PWA",
+  "short_name": "Sample",
+  "start_url": "/",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/icons/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    }
+  ],
+  "background_color": "#f0f0f0",
+  "theme_color": "#3367d6"
+}
+```
+<br>
+
+## 8. What is the purpose of the 'Add to Home Screen' feature?
+
+The "Add to Home Screen" feature is one of the key **progressive web app (PWA)** benefits. It empowers web applications to be installed and used like native mobile apps, directly from the user's device home screen.
+
+### Key Advantages of the Feature
+
+- **Improved User Experience**: The feature streamlines accessibility, making the app readily available with a single tap on the home screen, much like a native app.
+
+- **Enhanced Engagement**: By offering a permanent presence, the app remains on the user's device. This can motivate users to engage more frequently.
+
+- **Offline Capabilities**: The app can be tailored to work consistently and flexibly even when there's no internet connection. This aspect is beneficial for both user and developer alike.
+
+### Technologies Supporting "Add to Home Screen"
+
+The Cache Storage API in JavaScript, for example, is foundational to PWAs and, consequently, the "Add to Home Screen" feature. Nonetheless, the feature's availability across devices and browsers can differ.
+
+The Service Worker, another PWA-centric technology, equips the app to function even when offline. It achieves this by intercepting network requests, allowing the app to respond with its cached resources - a technique known as "cache first" strategy.
+
+Should internet connectivity be restored, the app can then update its cache with the latest data.
+
+### Considerations for "Add to Home Screen"
+
+Investing in the feature demands a nuanced understanding of its advantages and challenges. For instance, while PWAs on iOS devices support "Add to Home Screen," native app storefronts like the Apple App Store often garner more initial user trust and visibility. This can impact the visibility of your app, and it's essential to consider your target audience and how they discover and use mobile applications.
+
+Furthermore, the space on a smartphone's home screen is competitive. Users are selective about what earns a coveted spot here. Therefore, your app must provide clear, discernible value to entice them to "add" it.
+
+### Code example: 'Service Worker'
+
+Below is the JavaScript code:
+
+```javascript
+// Service worker for cache-first strategy
+self.addEventListener('fetch', (event) => {
+  event.respondWith(caches.match(event.request)
+    .then((cachedResponse) => cachedResponse || fetch(event.request))
+  );
+});
+
+// On installation, populate cache
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open('my-app-cache').then((cache) => {
+      return cache.addAll([
+        '/',
+        '/styles/main.css',
+        '/script/main.js',
+      ]);
+    })
+  );
+});
+```
+<br>
+
+## 9. How can you detect if your web app has been added to the user's home screen?
+
+To detect if a **Progressive Web App (PWA)** has been added to a user's home screen, you can use JavaScript in combination with other browser-specific methods:
+
+### Using Web APIs
+
+- **Web App Manifest**: Access the `display` property in the manifest file to check if the app is running in "standalone" mode.
+
+- **Web Application Install Prompt**: Identify whether the browser displayed an installation prompt. 
+
+### Code Example: Web App Manifest
+
+```json
+"manifest.json"
+{
+  "display": "fullscreen"
+}
+```
+
+```javascript
+// main.js
+const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+```
+
+### Code Example: Web Application Install Prompt
+
+```javascript
+// main.js
+window.addEventListener('beforeinstallprompt', () => {
+  // Installation is possible
+});
+```
+
+### Browser-Specific Methods
+
+- **Chrome**: Use `window.matchMedia('(display-mode: standalone)').matches` to detect standalone mode.
+  
+- **Firefox**: Utilize `document.hidden` and check for `false` to determine if the app is in standalone mode.
+
+### Code Example: App in Standalone Mode
+
+```javascript
+// main.js
+if ('standalone' in navigator && navigator.standalone) {
+  console.log('Launched from home screen');
+}
+```
+
+### Code Example: Safari Home Screen Detection
+
+```javascript
+// main.js
+if (window.matchMedia('(display-mode: standalone)').matches) {
+  console.log('Launched from home screen using Safari');
+}
+```
+<br>
+
+## 10. Explain how _PWAs_ achieve _offline functionality_.
+
+**Progressive Web Applications** (PWAs) leverage various technologies and strategies to maintain core functionality even in offline or low connectivity scenarios. Key methods involved include caching with Service Workers, adapting UI/UX, and data synchronization.
+
+### Service Workers & Caching
+
+- **Role**: Service Workers act as a bridge between the PWA and the network, allowing resources to be cached for future use.
+  
+- **Caching Mechanics**: Service Workers implement a caching strategy to save essential assets and data, such as HTML, CSS, JavaScript, and API responses.
+
+- **Cache Storage**: Resources can be stored in different types of caches, such as the Application, Navigation, or Data cache.
+
+- **Cache Durability**: Cached resources include a versioning or cache-busting mechanism to ensure they update when necessary.
+
+### Offline First Strategies
+
+- **Data First Approach**: PWAs safeguard the user experience by focusing on ensuring data integrity and then syncing it with the backend. This method ensures users can at least access cached data when offline.
+
+- **Interactive Pre-Caching**: PWAs can proactively cache elements or sections that a user is likely to interact with, further enhancing the offline experience.
+
+### Synchronization Mechanisms
+
+- **Event Listeners**: Service Workers monitor certain network events and trigger corresponding actions. For instance, when network status changes or when an online connection is established.
+
+- **Background Sync**: PWAs can leverage background sync functionality to queue data for later synchronization if the user operates in an offline mode. Once the user is back online, the data is automatically synced.
+
+### Real-Time Databases and Offline Storage
+
+- **IndexedDB**: This is a client-side storage system for application data, tailored primarily for large amounts of data or structured data storage. 
+
+- **Web Storage**: Consisting of localStorage and sessionStorage, this provides simple key-value storage along with storage segregation based on the session.
+
+- **Real-Time Databases**: Databases such as Firebase or CouchDB integrate real-time data synchronization capabilities, reducing the manual effort required for offline data management.
+
+### User Guidance and Consistency
+
+- **Offline Mode Indicators**: To keep users informed about their current connectivity status, PWAs might display visual cues (like an alert or a dedicated offline page) to indicate when the app is offline and what capabilities are limited.
+
+- **Data Consistency**: When operating offline, PWAs try to maintain data consistency, ensuring that operations, when committed, are, if possible, also committed to the backend data source when the app gets back online.
+
+### Addressing Security Concerns
+
+- **Access Validation**: When online access is restored, PWAs perform validations to ensure the authenticity and integrity of client-side and server-side data before syncing. 
+
+- **Validation Mechanisms**: They might use unique transaction identifiers or entity versions to track data transactions and ensure that no inconsistent or malicious changes are applied to the data sources.
+<br>
+
+## 11. What are the security requirements for a _PWA_?
+
+**PWAs** integrate the best of the web and mobile applications, focusing holistically on **security and user experience**.
+
+### Key Features
+
+- **HTTPS**: HTTPS ensures the integrity and confidentiality of data. It's non-negotiable for PWAs.
+  
+- **Service Workers**: Intercepts network requests and provides offline capabilities while preventing unauthorized access to resources.
+
+- **Content Security Policy (CSP)**: Defines the content sources that the browser can load resources from to defend against cross-site scripting (XSS) attacks.
+
+- **Sandboxing**: Restricts the execution context of individual components like iframes for better security.
+
+- **Push Notifications**: Require user permission, putting data control in users' hands.
+
+- **App Transport Security**: Ensures secure data transfers between the app and web servers.
+
+These features combine with others, such as reliable internet connections via **Background Sync**, to form a multifaceted security approach.
+<br>
+
+## 12. Can you delineate between _App Shell_ and content in a _PWA_ context?
+
+In the context of Progressive Web Apps (PWAs), the **App Shell** and the **content** are two fundamental components that work synergistically to deliver an enhanced user experience.
+
+### App Shell
+
+The **App Shell** is the PWA's core architectural design, resembling the frame of a single-page application. It is composed of static elements such as the header, navigation bar, and footer that remain consistent across the app.
+
+#### Purpose
+
+- Enhances Performance: Caching the App Shell optimizes load times, while dynamic or personalized content is fetched when required.
+- Framework for Navigation: Offers a seamless navigational experience, especially in offline or low-connectivity scenarios.
+
+### Content
+
+The **Content** of a PWA refers to the distinct data or interface components other than the static elements provided by the App Shell.
+
+#### Dynamism and Interactivity
+- Real-time Data: It's responsible for displaying dynamic data fetched from APIs, databases, or other sources.
+- User Interactions: Handles user input and dynamic changes within the app.
+
+#### Fetch Strategy
+
+Unlike the App Shell, which is typically cached for quick access, the content uses tailored fetch strategies based on the data required, user context, and network conditions.
+
+### Code Example: App Shell and Content
+
+Here is a HTML code:
+
+```html
+<!-- App Shell -->
+<header id="appHeader">...</header>
+<nav id="appNav">...</nav>
+<main id="appContent">...</main>
+
+<!-- Content -->
+<section id="dynamicSection">...</section>
+```
+
+In this example:
+
+- The elements within `<header>`, `<nav>`, and `<main>` contribute to the **App Shell**.
+- `<section id="dynamicSection">` represents **Content** that might be fetched dynamically and updated based on user interactions or data changes.
+<br>
+
+## 13. How does a _PWA_ function on a low-bandwidth or _offline_ network?
+
+**PWAs** are designed to work seamlessly under less-than-ideal network conditions or even in offline mode. This is achieved through a suite of innovative techniques and patterns coupled with the Service Worker.
+
+### Service Worker Primer
+
+- **Role**: Acts as a lightweight, programmable proxy between the web app and the network.
+- **Functionality**: It provides resource caching, background sync, and push notifications.
+- **Note**: Service Workers require HTTPS for security reasons.
+
+### Techniques for Offline Support
+
+- **Cache-First Strategy**: When the network isn't available, the browser serves resources (like HTML, CSS, and JavaScript files) from the cache, effectively maintaining the app's core functionality. Requests to the network are made only for resources not available in the cache.
+
+- **Cache Storage**:
+  - The Cache Storage API, employed by Service Workers, provides a centralized location for app-centric resource caching.
+  - Resources are manually cached, giving **developers** granular control over the caching strategy.
+
+- **Real-time Database Synchronization**:
+  - A traditional database often involves direct server interactions, making it unsuitable for offline use.
+  - Solutions may utilize local databases that sync with a remote source when the network is accessible. One example is IndexedDB, a low-level API for client-side storage.
+
+- **Lazy Loading and Pre-caching**:
+  - Resources are divided into essential and non-essential categories, ensuring core elements are swiftly accessible. Non-essential resources can be "lazily" loaded based on user interaction.
+  - Pre-caching secures necessary resources in the cache for rapid retrieval.
+
+- **Background Sync**: Allows users to interact with the app, even when offline, and then synchronize the changes with the server once the network is restored.
+
+- **Persistent Storage**: By using techniques like Service Worker Caching and IndexedDB, a PWA can provide persistent storage that retains data across browsing sessions.
+
+### Code Example: Service Worker Installation
+
+Here is the JavaScript code:
+
+```javascript
+// Define a list of resources to pre-cache
+const preCacheResources = ['index.html', 'styles.css', 'app.js'];
+
+// Service Worker installation event
+self.addEventListener('install', event => {
+  // Perform pre-caching of resources
+  event.waitUntil(caches.open('preCache').then(cache => cache.addAll(preCacheResources)));
+});
+```
+<br>
+
+## 14. What are _push notifications_ in the context of _PWAs_?
+
+**Push Notifications** enable web applications, including **Progressive Web Apps**, to send real-time updates to users even when the app isn't open.
+
+They are a powerful tool to engage users and can be particularly valuable in scenarios like news or social media apps, e-commerce platforms, or for personalized offers and reminders.
+
+### Key Components
+
+- **Service Worker**: Acts as a bridge between the server and the user's device.
+
+- **Push API**: Facilitates communication between the web app and a Push Service.
+
+- **Push Service**: Operated by a third-party, it's responsible for routing notifications to the intended client device.
+
+- **User Interface**: The device displays notifications, and users can interact with them.
+
+### Essential Steps for Push Notifications in PWAs
+
+1. **Request Permission**: The app must first ask for the user's consent to send push notifications. This is usually done with a prompt.
+
+2. **Register Service Worker**: This enables the Service Worker to handle incoming push messages.
+
+3. **Subscribe to Push and Obtain a Push Subscription**: The web app requests the user's device to subscribe to the push service (like Firebase Cloud Messaging), Afterward, it sends the push subscription to the server.
+
+4. **Send Push Notification**: The app's server, using the key from the push subscription, can send a push message to the push service, which in turn delivers it to the user's device.
+
+5. **Handle Push Event**: When a push message is received, the Service Worker wakes up and invokes an event, allowing the app to process the notification and potentially show an in-app notification or take other relevant actions.
+
+6. **Use Data Payload**: The received push message can include a data payload, carrying information for the app to use and act upon. This is particularly useful for handling actionable notifications.
+
+### Code Example: Requesting Push Notification Permission
+
+Here is the code:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if ('serviceWorker' in navigator && 'PushManager' in window) {
+            // Register the service worker
+            navigator.serviceWorker.register('sw.js')
+                .then(function(registration) {
+                    console.log('Service Worker registered with scope:', registration.scope);
+                    // Request push notification permission
+                    return registration.pushManager.permissionState({ userVisibleOnly: true });
+                })
+                .then(function(permissionState) {
+                    if (permissionState === 'granted') {
+                        console.log('Push notifications are allowed');
+                        // The user has granted permission
+                        // Now you can subscribe to the push service, obtain the push subscription, and send it to your server
+                    } else {
+                        console.log('Push notifications are not allowed');
+                        // The user has declined or has not yet granted permission
+                        // You might want to inform the user about the benefits of allowing push notifications.
+                    }
+                })
+                .catch(function(err) {
+                    console.error('Service Worker registration failed:', err);
+                });
+        } else {
+            console.warn('Push messaging is not supported');
+        }
+    </script>
+    <title>Push Notification Permission Request</title>
+</head>
+<body>
+    <!-- Your app's UI elements can go here -->
+</body>
+</html>
+```
+
+In this code example:
+
+- We check if the browser supports both service workers and push notifications.
+- If supported, we register the service worker, and then use the PushManager to check or request permission for push notifications.
+<br>
+
+## 15. Can you explain the concept of _background sync_ in _PWAs_?
+
+**Background sync** in Progressive Web Applications (PWAs) enables data updates or actions, often generated offline, to synchronize with web servers as soon as the device reconnects to the internet.
+
+This provides users with a seamless experience, regardless of their online status, and is especially useful for unexpectedly interrupted actions, like submitting forms or uploading files.
+
+### Key Advantages
+
+- **Seamless and Reliable**: Users do not have to worry about their data or tasks being lost due to an intermittent internet connection.
+- **Improved Engagement**: Users are emancipated from the necessity of staying connected to perform tasks.
+  Developer and IT Concerns
+- **Resource Efficient**: Syncing occurs when network resources are available, avoiding unnecessary data usage.
+- **Data Integrity and Security**: Synchronized data undergoes server-side validation, ensuring integrity and security.
+
+
+### Underlying Mechanisms
+
+- **Service Worker**: This script acts as a bridge between the browser and the network, handling sync operations in the background.
+- **Sync Manager**: A built-in Chrome feature that **queues sync events**. These are later executed when the network is accessible.
+- **Backoff mechanisms**: Inherent to the sync process, these mechanisms regulate the timing of sync retries.
+  The Process
+- **Queueing**: The service worker puts data needing sync into the **sync queue** when the device is offline.
+- **Monitor & Execute**: Even when the app isn't active or open, the service worker continues to observe the sync queue. It executes queued tasks as soon as the device re-establishes a connection.
+
+### Code Example: Syncing Files with Service Worker
+
+Here is the JavaScript code:
+
+```javascript
+self.addEventListener('sync', function(event) {
+  if (event.tag == 'syncFiles') {
+    event.waitUntil(syncFiles());
+  }
+});
+
+function syncFiles() {
+  return new Promise((resolve, reject) => {
+    fetch('/sync/files')
+      .then(() => resolve())
+      .catch(() => reject());
+  });
+}
+```
+
+To manually trigger sync, use the following JavaScript:
+
+```javascript
+navigator.serviceWorker.ready.then(function(swRegistration) {
+  return swRegistration.sync.register('syncFiles');  
+});
+```
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - PWA](https://devinterview.io/questions/web-and-mobile-development/pwa-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
